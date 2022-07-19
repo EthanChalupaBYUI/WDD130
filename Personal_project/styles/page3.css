@@ -102,7 +102,7 @@ footer{
     background-color: #FB6107;
     color: white;
     text-decoration: none;
-    position:absolute;
+    position:relative;
     width: 100%;
     bottom: 0px;
     margin-top: 200px; 
@@ -125,12 +125,6 @@ footer{
     max-width: 50px;
     padding: 0;
 }
-.msg{
-    background-color: #716209;
-    padding: 1%;
-    color: white;
-    line-height: 1.5em;
-}
 
 
 .logo {
@@ -138,8 +132,20 @@ footer{
         
 } 
 
+.home-grid{
+    margin-bottom: 10%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    
+}
 
-           
+.home-grid h6{
+    font-size: xx-large;
+    margin-top: -10px;
+}
+.description{
+    padding: 5%;
+}
 @media screen and (max-width: 900px) {
     #hero, .home-grid {
         display: block;

@@ -111,7 +111,12 @@ footer{
     align-items: center;
 }
 
-
+#description{
+    padding-top: 20%;
+}
+.home-grid img{
+    width: 400px;
+}
 
 .home-title {
     font-family: 'Montserrat', sans-serif;

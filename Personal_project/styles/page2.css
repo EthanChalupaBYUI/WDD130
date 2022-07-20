@@ -45,7 +45,7 @@ h4{
     
 }
 h5{
-    color: #FB6107;
+    color: black;
     
     
 }
@@ -116,7 +116,9 @@ footer{
     align-items: center;
 }
 
-
+.home-grid img{
+    width: 400px;
+}
 
 .home-title {
     font-family: 'Montserrat', sans-serif;
@@ -150,7 +152,9 @@ footer{
     color: #153243;
     
 }
-           
+.book{
+    margin-left:20px;
+}
 @media screen and (max-width: 900px) {
     #hero, .home-grid {
         display: block;

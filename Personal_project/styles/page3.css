@@ -41,7 +41,7 @@ h4{
     text-align: center;
     padding: 0%;
     font-size: xx-large;
-    font: "Voltaire";
+    font-family: "Voltaire",sans-serif;
     
 }
 body{
@@ -116,6 +116,7 @@ footer{
 }
 .home-grid img{
     width: 400px;
+    padding: 3%;
 }
 
 .home-title {
